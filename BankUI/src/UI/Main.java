@@ -6,22 +6,20 @@ package UI;
 //
 //import javax.swing.*;
 import javax.swing.*;
-import java.awt.*;
 import java.util.Scanner;
 
 
 
 
 
-public class
-Main {
+public class Main {
     public static void main(String[] args) {
-//       SwingUtilities.invokeLater(new Runnable() {
+//        SwingUtilities.invokeLater(new Runnable() {
 //            @Override
 //            public void run() {
         new JFrame();
-        WelcomePage welcomePage = new WelcomePage();
-        Frame.getFrames();
-        //we need to work on this
+        BankGUI bankGUI = new BankGUI();
+        bankGUI.mainUI();
+
     }
 }
