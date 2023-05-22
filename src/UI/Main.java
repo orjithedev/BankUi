@@ -22,6 +22,6 @@ Main {
         new JFrame();
         WelcomePage welcomePage = new WelcomePage();
         Frame.getFrames();
-        //we need
+
     }
 }

@@ -19,8 +19,6 @@ public class WelcomePage extends JFrame {
     private void initComponents() {
         // Create a panel to hold the components
         JPanel panel = new JPanel();
-
-        // Set the layout manager for the panel
         panel.setLayout(new BorderLayout());
 
         // Create a label with welcome text
@@ -38,7 +36,6 @@ public class WelcomePage extends JFrame {
 
     // Main method to start the application
     public static void main(String[] args) {
-        // Create an instance of the WelcomePage class
         SwingUtilities.invokeLater(() -> new WelcomePage());
     }
 }
